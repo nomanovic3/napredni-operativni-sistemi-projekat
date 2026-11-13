@@ -1,0 +1,40 @@
+
+
+eForth SVEU16
+
+Copyright 1989-1999 Bill Muench All rights reserved.
+
+DECIMAL 
+
+ok : SUM 0 128 BEGIN DUP WHILE 1 - SWAP 65532 @ + SWAP REPEAT DROP ; 
+
+ok 3000 65533 ! 1 65534 ! SUM . 8128 
+
+ok 
+--- VIDEO MEMORY (approximate ASCII decoding) ---
+                                                                                
+                                                                                
+EF0RTH 5VEU16                                                                   
+C0PYRIGHT 1989-1999 BILL MUENCH #LL RIGHT5 RE5ERVED.                            
+DECIM#L                                                                         
+0K : 5UM 0 128 BEGIN DUP WHILE 1 - 5W#P 65532 @ + 5W#P REPE#T DR0P ;            
+0K 3000 65533 ! 1 65534 ! 5UM . 8128                                            
+0K                                                                              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+cycles=20480000 irq=127 pc=30F2 disk_status=0

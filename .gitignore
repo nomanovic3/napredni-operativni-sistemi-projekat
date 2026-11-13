@@ -1,0 +1,20 @@
+# Local toolchains and generated caches
+.tools/
+tmp/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Local builds and test executions; the reviewed runtime binaries are versioned.
+predaja/tests/test_vm.exe
+*.obj
+*.o
+*.pdb
+
+# Editor-local state
+.idea/
+.vscode/

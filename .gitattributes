@@ -1,0 +1,15 @@
+* -text
+*.c diff
+*.h diff
+*.asm diff
+*.md diff
+*.py diff
+*.ps1 diff
+*.bat diff
+*.pdf binary
+*.png binary
+*.zip binary
+*.exe binary
+*.bin binary
+*.rom binary
+*.img binary

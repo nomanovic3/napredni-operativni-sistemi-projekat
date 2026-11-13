@@ -1,0 +1,62 @@
+
+
+eForth SVEU16
+
+Copyright 1989-1999 Bill Muench All rights reserved.
+
+DECIMAL 
+
+ok 2 3 + . 5 
+
+ok : KVADRAT DUP * ; 
+
+ok 9 KVADRAT . 81 
+
+ok 1 8 LSHIFT . 256 
+
+ok 256 4 RSHIFT . 16 
+
+ok 10 3 /MOD . . 3 1 
+
+ok VARIABLE BROJ 
+
+ok 123 BROJ ! BROJ @ . 123 
+
+ok : SUMA 0 10 BEGIN DUP WHILE 1 - SWAP OVER + SWAP REPEAT DROP ; 
+
+ok SUMA . 45 
+
+ok HEX 
+
+ok FFFF 2000 ! 
+
+ok DECIMAL 
+
+ok 
+--- VIDEO MEMORY (approximate ASCII decoding) ---
+?                                                                               
+                                                                                
+EF0RTH 5VEU16                                                                   
+C0PYRIGHT 1989-1999 BILL MUENCH #LL RIGHT5 RE5ERVED.                            
+DECIM#L                                                                         
+0K 2 3 + . 5                                                                    
+0K : KV#DR#T DUP * ;                                                            
+0K 9 KV#DR#T . 81                                                               
+0K 1 8 L5HIFT . 256                                                             
+0K 256 4 R5HIFT . 16                                                            
+0K 10 3 /M0D . . 3 1                                                            
+0K V#RI#BLE BR0J                                                                
+0K 123 BR0J ! BR0J @ . 123                                                      
+0K : 5UM# 0 10 BEGIN DUP WHILE 1 - 5W#P 0VER + 5W#P REPE#T DR0P ;               
+0K 5UM# . 45                                                                    
+0K HEX                                                                          
+0K FFFF 2000 !                                                                  
+0K DECIM#L                                                                      
+0K                                                                              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+cycles=38560000 irq=240 pc=304F disk_status=0

@@ -1,0 +1,4 @@
+PASS: all 65536 instruction encodings (register aliasing and PC included)
+PASS: ROM, video, scan FIFO, disk round-trip, reset, bounds, partial transfer
+PASS: self-modifying code, interrupt injection/retry and exact 160000-cycle period
+ALL PASS: 74901 assertions

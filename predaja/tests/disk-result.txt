@@ -1,0 +1,48 @@
+
+
+eForth SVEU16
+
+Copyright 1989-1999 Bill Muench All rights reserved.
+
+DECIMAL 
+
+ok : FILL 128 BEGIN DUP WHILE 1 - DUP 65532 ! REPEAT DROP ; 
+
+reDef FILL
+
+ok : SUM 0 128 BEGIN DUP WHILE 1 - SWAP 65532 @ + SWAP REPEAT DROP ; 
+
+ok 3000 65533 ! 2 65534 ! FILL 
+
+ok 3000 65533 ! 1 65534 ! SUM . 8128 
+
+ok 65534 @ . 0 
+
+ok 
+--- VIDEO MEMORY (approximate ASCII decoding) ---
+                                                                                
+                                                                                
+EF0RTH 5VEU16                                                                   
+C0PYRIGHT 1989-1999 BILL MUENCH #LL RIGHT5 RE5ERVED.                            
+DECIM#L                                                                         
+0K : FILL 128 BEGIN DUP WHILE 1 - DUP 65532 ! REPE#T DR0P ;                     
+REDEF FILL                                                                      
+0K : 5UM 0 128 BEGIN DUP WHILE 1 - 5W#P 65532 @ + 5W#P REPE#T DR0P ;            
+0K 3000 65533 ! 2 65534 ! FILL                                                  
+0K 3000 65533 ! 1 65534 ! 5UM . 8128                                            
+0K 65534 @ . 0                                                                  
+0K                                                                              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+cycles=35680000 irq=222 pc=3057 disk_status=0

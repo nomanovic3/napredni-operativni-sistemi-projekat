@@ -1,0 +1,7 @@
+{
+  "model": "independent Python reference, not the C executable",
+  "cycles": 1538000,
+  "interrupts": 9,
+  "kernel_bytes": 10964,
+  "output": "\r\neForth SVEU16\r\nCopyright 1989-1999 Bill Muench All rights reserved.\r\nDECIMAL \r\nok 2 3 + . 5 \r\nok : KVADRAT DUP * ; \r\nok 9 KVADRAT . 81 \r\nok 1 8 LSHIFT . 256 \r\nok 256 4 RSHIFT . 16 \r\nok "
+}

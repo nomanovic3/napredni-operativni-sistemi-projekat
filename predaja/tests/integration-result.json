@@ -1,0 +1,27 @@
+[
+  {
+    "test": "smoke",
+    "passed": true,
+    "seconds": 0.566
+  },
+  {
+    "test": "disk",
+    "passed": true,
+    "seconds": 0.47
+  },
+  {
+    "test": "disk-persist",
+    "passed": true,
+    "seconds": 0.339
+  },
+  {
+    "test": "scroll",
+    "passed": true,
+    "seconds": 1.077
+  },
+  {
+    "test": "independent-reference-boot-and-forth",
+    "passed": true,
+    "interrupts": 7
+  }
+]
